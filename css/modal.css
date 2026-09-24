@@ -1,9 +1,7 @@
 .backdrop {
   position: fixed;
-
   top: 0;
   left: 0;
-
   z-index: 999;
 
   width: 100%;
@@ -28,7 +26,6 @@
 
 .modal {
   position: absolute;
-
   top: 50%;
   left: 50%;
 
@@ -38,7 +35,6 @@
   padding: 72px 24px 24px;
 
   background-color: #fcfcfc;
-
   border-radius: 4px;
 
   box-shadow:
@@ -51,7 +47,6 @@
 
 .modal-close-button {
   position: absolute;
-
   top: 24px;
   right: 24px;
 
@@ -61,10 +56,9 @@
 
   width: 24px;
   height: 24px;
-
   padding: 0;
 
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
 
   color: #2e2f42;
@@ -136,6 +130,11 @@
 
   outline: transparent;
 
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
   background-color: transparent;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -147,7 +146,6 @@
 
 .modal-input-icon {
   position: absolute;
-
   top: 50%;
   left: 16px;
 
@@ -181,11 +179,12 @@
 
   outline: transparent;
 
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
 
-  color: #2e2f42;
+  color: #434455;
   background-color: transparent;
 
   resize: none;
@@ -258,6 +257,9 @@
 }
 
 .modal-checkbox-icon {
+  color: #f4f4fd;
+  fill: #f4f4fd;
+
   opacity: 0;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
